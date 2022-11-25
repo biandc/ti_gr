@@ -26,7 +26,7 @@ func TestMyQueue_Pop(t *testing.T) {
 	queue.Push(3)
 	actual := queue.Pop()
 	if actual != 1 {
-		t.Fatalf("expected=3, actual=%v", actual)
+		t.Fatalf("expected=1, actual=%v", actual)
 	}
 	actual = queue.Pop()
 	if actual != 2 {
@@ -34,7 +34,7 @@ func TestMyQueue_Pop(t *testing.T) {
 	}
 	actual = queue.Pop()
 	if actual != 3 {
-		t.Fatalf("expected=1, actual=%v", actual)
+		t.Fatalf("expected=3, actual=%v", actual)
 	}
 	empty := queue.Empty()
 	if !empty {
@@ -59,13 +59,13 @@ func TestMyQueue_Peek(t *testing.T) {
 
 func TestMyQueue_Empty(t *testing.T) {
 	queue := Constructor()
-	empty := queue.Empty()
-	if !empty {
-		t.Fatalf("expected=true, actual=%v", empty)
+	actual := queue.Empty()
+	if !actual {
+		t.Fatalf("expected=true, actual=%v", actual)
 	}
 	queue.Push(1)
-	empty = queue.Empty()
-	if empty {
-		t.Fatalf("expected=false, actual=%v", empty)
+	actual = queue.Empty()
+	if actual {
+		t.Fatalf("expected=false, actual=%v", actual)
 	}
 }

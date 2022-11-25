@@ -9,9 +9,14 @@ func repeatedSubstringPattern(s string) bool {
 	if l == 0 {
 		return false
 	}
+    // abababab
+    //  bababa
+    // abc
+    // abcabc
+    //  bcab
 	s2 := s + s
 	i := t.StrStr(s2[1:2*l-1], s)
-	return i == -1
+	return i != -1
 }
 
 func repeatedSubstringPattern1(s string) bool {

@@ -38,3 +38,4 @@ pub mod t_039_28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod t_040_459_repeated_substring_pattern;
 pub mod t_041_232_implement_queue_using_stacks;
 pub mod t_042_225_implement_stack_using_queues;
+pub mod t_043_20_valid_parentheses;

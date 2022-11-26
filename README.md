@@ -43,5 +43,9 @@ t_037_151_reverse_words_in_a_string                                 151. 反转�
 t_038_offer58ii_zuo_xuan_zhuan_zi_fu_chuan_lcof                     剑指 Offer 58 - II. 左旋转字符串
 t_039_28_find_the_index_of_the_first_occurrence_in_a_string         28. 找出字符串中第一个匹配项的下标
 t_040_459_repeated_substring_pattern                                459. 重复的子字符串
+t_041_232_implement_queue_using_stacks                              232. 用栈实现队列
+t_042_225_implement_stack_using_queues                              225. 用队列实现栈
+t_043_20_valid_parentheses                                          20. 有效的括号
+t_044_1047_remove_all_adjacent_duplicates_in_string                 1047. 删除字符串中的所有相邻重复项
 
 ```

@@ -47,5 +47,6 @@ t_041_232_implement_queue_using_stacks                              232. 用栈�
 t_042_225_implement_stack_using_queues                              225. 用队列实现栈
 t_043_20_valid_parentheses                                          20. 有效的括号
 t_044_1047_remove_all_adjacent_duplicates_in_string                 1047. 删除字符串中的所有相邻重复项
+t_045_150_evaluate_reverse_polish_notation                          150. 逆波兰表达式求值
 
 ```

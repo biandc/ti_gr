@@ -40,3 +40,5 @@ pub mod t_041_232_implement_queue_using_stacks;
 pub mod t_042_225_implement_stack_using_queues;
 pub mod t_043_20_valid_parentheses;
 pub mod t_044_1047_remove_all_adjacent_duplicates_in_string;
+pub mod t_045_150_evaluate_reverse_polish_notation;
+pub mod t_046_239_sliding_window_maximum;

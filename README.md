@@ -48,5 +48,7 @@ t_042_225_implement_stack_using_queues                              225. 用队�
 t_043_20_valid_parentheses                                          20. 有效的括号
 t_044_1047_remove_all_adjacent_duplicates_in_string                 1047. 删除字符串中的所有相邻重复项
 t_045_150_evaluate_reverse_polish_notation                          150. 逆波兰表达式求值
+t_046_239_sliding_window_maximum                                    239. 滑动窗口最大值
+t_047_347_top_k_frequent_elements                                   347. 前 K 个高频元素
 
 ```

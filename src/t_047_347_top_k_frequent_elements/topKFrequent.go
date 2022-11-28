@@ -1,6 +1,8 @@
 package t_047_347_top_k_frequent_elements
 
-import "container/heap"
+import (
+	"container/heap"
+)
 
 // 小顶堆
 type IHeap [][2]int
@@ -37,8 +39,8 @@ func topKFrequent(nums []int, k int) []int {
 	// 小顶堆
 	h := &IHeap{}
 	heap.Init(h)
-	for k, v := range numsMap {
-		heap.Push(h, [2]int{k, v})
+	for key, val := range numsMap {
+		heap.Push(h, [2]int{key, val})
 		if h.Len() > k {
 			heap.Pop(h)
 		}

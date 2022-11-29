@@ -43,3 +43,6 @@ pub mod t_044_1047_remove_all_adjacent_duplicates_in_string;
 pub mod t_045_150_evaluate_reverse_polish_notation;
 pub mod t_046_239_sliding_window_maximum;
 pub mod t_047_347_top_k_frequent_elements;
+pub mod t_048_144_binary_tree_preorder_traversal;
+pub mod t_049_94_binary_tree_inorder_traversal;
+pub mod t_050_145_binary_tree_postorder_traversal;

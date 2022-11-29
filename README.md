@@ -50,5 +50,8 @@ t_044_1047_remove_all_adjacent_duplicates_in_string                 1047. 删除
 t_045_150_evaluate_reverse_polish_notation                          150. 逆波兰表达式求值
 t_046_239_sliding_window_maximum                                    239. 滑动窗口最大值
 t_047_347_top_k_frequent_elements                                   347. 前 K 个高频元素
+t_048_144_binary_tree_preorder_traversal                            144. 二叉树的前序遍历
+t_049_94_binary_tree_inorder_traversal                              94. 二叉树的中序遍历
+t_050_145_binary_tree_postorder_traversal                           145. 二叉树的后序遍历
 
 ```

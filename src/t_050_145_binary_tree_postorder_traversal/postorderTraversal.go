@@ -47,7 +47,6 @@ func postorderTraversal1(root *TreeNode) []int {
 		if node.Right != nil {
 			stack = append(stack, node.Right)
 		}
-
 	}
 	l := len(ret)
 	for i := 0; i < l/2; i++ {

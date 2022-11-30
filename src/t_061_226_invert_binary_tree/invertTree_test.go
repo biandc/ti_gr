@@ -30,7 +30,7 @@ func TestInvertTree(t *testing.T) {
 			val.Right = queue[i+2]
 		}
 	}
-	node := invertTree(queue[0])
+	node := invertTree1(queue[0])
 	// 层序遍历
 	if node != nil {
 		queue2 := []*TreeNode{}

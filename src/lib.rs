@@ -53,3 +53,4 @@ pub mod t_054_637_average_of_levels_in_binary_tree;
 pub mod t_056_515_find_largest_value_in_each_tree_row;
 pub mod t_059_104_maximum_depth_of_binary_tree;
 pub mod t_060_111_minimum_depth_of_binary_tree;
+pub mod t_061_226_invert_binary_tree;

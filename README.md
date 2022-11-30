@@ -53,5 +53,10 @@ t_047_347_top_k_frequent_elements                                   347. 前 K �
 t_048_144_binary_tree_preorder_traversal                            144. 二叉树的前序遍历
 t_049_94_binary_tree_inorder_traversal                              94. 二叉树的中序遍历
 t_050_145_binary_tree_postorder_traversal                           145. 二叉树的后序遍历
+t_051_102_binary_tree_level_order_traversal                         102. 二叉树的层序遍历
+t_052_107_binary_tree_level_order_traversal_ii                      107. 二叉树的层序遍历 II
+t_053_199_binary_tree_right_side_view                               199. 二叉树的右视图
+t_054_637_average_of_levels_in_binary_tree                          637. 二叉树的层平均值
+t_055_429_n_ary_tree_level_order_traversal                          429. N 叉树的层序遍历
 
 ```

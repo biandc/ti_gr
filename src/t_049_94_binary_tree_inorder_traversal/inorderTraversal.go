@@ -31,6 +31,9 @@ func inorderTraversal(root *TreeNode) []int {
 
 func inorderTraversal1(root *TreeNode) []int {
 	ret := []int{}
+	if root == nil {
+		return ret
+	}
 	stack := []*TreeNode{}
 	cur := root
 	for cur != nil || len(stack) != 0 {
@@ -50,6 +53,9 @@ func inorderTraversal1(root *TreeNode) []int {
 
 func inorderTraversal2(root *TreeNode) []int {
 	ret := []int{}
+	if root == nil {
+		return ret
+	}
 	stack := []*TreeNode{}
 	stack = append(stack, root)
 	for len(stack) != 0 {

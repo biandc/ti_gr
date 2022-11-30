@@ -37,6 +37,9 @@ func preorderTraversal(root *TreeNode) []int {
 
 func preorderTraversal1(root *TreeNode) []int {
 	ret := []int{}
+	if root == nil {
+		return ret
+	}
 	stack := []*TreeNode{}
 	stack = append(stack, root)
 	for len(stack) != 0 {
@@ -56,6 +59,9 @@ func preorderTraversal1(root *TreeNode) []int {
 
 func preorderTraversal2(root *TreeNode) []int {
 	ret := []int{}
+	if root == nil {
+		return ret
+	}
 	stack := []*TreeNode{}
 	stack = append(stack, root)
 	for len(stack) != 0 {

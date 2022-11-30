@@ -46,3 +46,7 @@ pub mod t_047_347_top_k_frequent_elements;
 pub mod t_048_144_binary_tree_preorder_traversal;
 pub mod t_049_94_binary_tree_inorder_traversal;
 pub mod t_050_145_binary_tree_postorder_traversal;
+pub mod t_051_102_binary_tree_level_order_traversal;
+pub mod t_052_107_binary_tree_level_order_traversal_ii;
+pub mod t_053_199_binary_tree_right_side_view;
+pub mod t_054_637_average_of_levels_in_binary_tree;

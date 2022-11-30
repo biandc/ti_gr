@@ -50,3 +50,6 @@ pub mod t_051_102_binary_tree_level_order_traversal;
 pub mod t_052_107_binary_tree_level_order_traversal_ii;
 pub mod t_053_199_binary_tree_right_side_view;
 pub mod t_054_637_average_of_levels_in_binary_tree;
+pub mod t_056_515_find_largest_value_in_each_tree_row;
+pub mod t_059_104_maximum_depth_of_binary_tree;
+pub mod t_060_111_minimum_depth_of_binary_tree;

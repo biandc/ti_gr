@@ -58,5 +58,10 @@ t_052_107_binary_tree_level_order_traversal_ii                      107. 二叉�
 t_053_199_binary_tree_right_side_view                               199. 二叉树的右视图
 t_054_637_average_of_levels_in_binary_tree                          637. 二叉树的层平均值
 t_055_429_n_ary_tree_level_order_traversal                          429. N 叉树的层序遍历
+t_056_515_find_largest_value_in_each_tree_row                       515. 在每个树行中找最大值
+t_057_116_populating_next_right_pointers_in_each_node               116. 填充每个节点的下一个右侧节点指针
+t_058_117_populating_next_right_pointers_in_each_node_ii            117. 填充每个节点的下一个右侧节点指针 II
+t_059_104_maximum_depth_of_binary_tree                              104. 二叉树的最大深度
+t_060_111_minimum_depth_of_binary_tree                              111. 二叉树的最小深度
 
 ```

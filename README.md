@@ -64,5 +64,10 @@ t_058_117_populating_next_right_pointers_in_each_node_ii            117. 填充�
 t_059_104_maximum_depth_of_binary_tree                              104. 二叉树的最大深度
 t_060_111_minimum_depth_of_binary_tree                              111. 二叉树的最小深度
 t_061_226_invert_binary_tree                                        226. 翻转二叉树
+t_062_589_n_ary_tree_preorder_traversal                             589. N 叉树的前序遍历
+t_063_590_n_ary_tree_postorder_traversal                            590. N 叉树的后序遍历
+t_064_101_symmetric_tree                                            101. 对称二叉树
+t_065_100_same_tree                                                 100. 相同的树
+t_066_572_subtree_of_another_tree                                   572. 另一棵树的子树
 
 ```

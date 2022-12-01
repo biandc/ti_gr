@@ -1,15 +1,15 @@
-package t_059_104_maximum_depth_of_binary_tree
+package t_068_222_count_complete_tree_nodes
 
 import (
 	"testing"
 )
 
-func TestMaxDepth(t *testing.T) {
+func TestCountNodes(t *testing.T) {
 	var (
-		root     = []int{3, 9, 20, 0, 0, 15, 7}
+		root     = []int{1, 2, 3, 4, 5, 6}
 		l        = len(root)
 		queue    = make([]*TreeNode, l)
-		expected = 3
+		expected = 6
 		actual   int
 	)
 	for index, val := range root {
@@ -29,10 +29,11 @@ func TestMaxDepth(t *testing.T) {
 			val.Right = queue[i+2]
 		}
 	}
-	actual = maxDepth1(queue[0])
+	actual = countNodes(queue[0])
 	if expected == actual {
 		t.Logf("expected=%v, actual=%v", expected, actual)
 	} else {
 		t.Fatalf("expected=%v, actual=%v", expected, actual)
 	}
+
 }

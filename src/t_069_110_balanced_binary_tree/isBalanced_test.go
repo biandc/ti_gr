@@ -1,16 +1,16 @@
-package t_059_104_maximum_depth_of_binary_tree
+package t_069_110_balanced_binary_tree
 
 import (
 	"testing"
 )
 
-func TestMaxDepth(t *testing.T) {
+func TestIsBalanced(t *testing.T) {
 	var (
 		root     = []int{3, 9, 20, 0, 0, 15, 7}
 		l        = len(root)
 		queue    = make([]*TreeNode, l)
-		expected = 3
-		actual   int
+		expected = true
+		actual   bool
 	)
 	for index, val := range root {
 		if val != 0 {
@@ -29,10 +29,11 @@ func TestMaxDepth(t *testing.T) {
 			val.Right = queue[i+2]
 		}
 	}
-	actual = maxDepth1(queue[0])
+	actual = isBalanced(queue[0])
 	if expected == actual {
 		t.Logf("expected=%v, actual=%v", expected, actual)
 	} else {
 		t.Fatalf("expected=%v, actual=%v", expected, actual)
 	}
+
 }

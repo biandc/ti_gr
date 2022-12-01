@@ -38,3 +38,22 @@ func maxDepth(root *TreeNode) int {
 	}
 	return ret
 }
+
+func maxDepth1(root *TreeNode) int {
+	var traversal func(node *TreeNode) int
+	var max func(x, y int) int
+	max = func(x, y int) int {
+		if x > y {
+			return x
+		} else {
+			return y
+		}
+	}
+	traversal = func(node *TreeNode) int {
+		if node == nil {
+			return 0
+		}
+		return max(traversal(node.Left), traversal(node.Right)) + 1
+	}
+	return traversal(root)
+}

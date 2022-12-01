@@ -29,7 +29,7 @@ func TestMinDepth(t *testing.T) {
 			val.Right = queue[i+2]
 		}
 	}
-	actual = minDepth(queue[0])
+	actual = minDepth1(queue[0])
 	if expected == actual {
 		t.Logf("expected=%v, actual=%v", expected, actual)
 	} else {

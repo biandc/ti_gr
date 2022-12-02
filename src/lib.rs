@@ -59,3 +59,4 @@ pub mod t_065_100_same_tree;
 pub mod t_066_572_subtree_of_another_tree;
 pub mod t_068_222_count_complete_tree_nodes;
 pub mod t_069_110_balanced_binary_tree;
+pub mod t_070_257_binary_tree_paths;

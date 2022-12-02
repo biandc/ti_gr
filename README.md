@@ -71,5 +71,7 @@ t_065_100_same_tree                                                 100. 相同�
 t_066_572_subtree_of_another_tree                                   572. 另一棵树的子树
 t_067_559_maximum_depth_of_n_ary_tree                               559. N 叉树的最大深度
 t_068_222_count_complete_tree_nodes                                 222. 完全二叉树的节点个数
+t_069_110_balanced_binary_tree                                      110. 平衡二叉树
+t_070_257_binary_tree_paths                                         257. 二叉树的所有路径
 
 ```

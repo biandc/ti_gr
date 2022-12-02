@@ -60,3 +60,7 @@ pub mod t_066_572_subtree_of_another_tree;
 pub mod t_068_222_count_complete_tree_nodes;
 pub mod t_069_110_balanced_binary_tree;
 pub mod t_070_257_binary_tree_paths;
+pub mod t_071_404_sum_of_left_leaves;
+pub mod t_072_513_find_bottom_left_tree_value;
+pub mod t_073_112_path_sum;
+pub mod t_074_113_path_sum_ii;

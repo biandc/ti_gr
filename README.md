@@ -73,5 +73,8 @@ t_067_559_maximum_depth_of_n_ary_tree                               559. N 叉�
 t_068_222_count_complete_tree_nodes                                 222. 完全二叉树的节点个数
 t_069_110_balanced_binary_tree                                      110. 平衡二叉树
 t_070_257_binary_tree_paths                                         257. 二叉树的所有路径
-
+t_071_404_sum_of_left_leaves                                        404. 左叶子之和
+t_072_513_find_bottom_left_tree_value                               513. 找树左下角的值
+t_073_112_path_sum                                                  112. 路径总和
+t_074_113_path_sum_ii                                               113. 路径总和 II
 ```

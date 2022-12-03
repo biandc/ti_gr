@@ -64,3 +64,5 @@ pub mod t_071_404_sum_of_left_leaves;
 pub mod t_072_513_find_bottom_left_tree_value;
 pub mod t_073_112_path_sum;
 pub mod t_074_113_path_sum_ii;
+pub mod t_075_106_construct_binary_tree_from_inorder_and_postorder_traversal;
+pub mod t_076_105_construct_binary_tree_from_preorder_and_inorder_traversal;

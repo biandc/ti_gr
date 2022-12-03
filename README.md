@@ -77,4 +77,7 @@ t_071_404_sum_of_left_leaves                                        404. 左叶�
 t_072_513_find_bottom_left_tree_value                               513. 找树左下角的值
 t_073_112_path_sum                                                  112. 路径总和
 t_074_113_path_sum_ii                                               113. 路径总和 II
+t_075_106_construct_binary_tree_from_inorder_and_postorder_traversal106. 从中序与后序遍历序列构造二叉树
+t_076_105_construct_binary_tree_from_preorder_and_inorder_traversal 105. 从前序与中序遍历序列构造二叉树
+
 ```

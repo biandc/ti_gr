@@ -81,5 +81,6 @@ t_075_106_construct_binary_tree_from_inorder_and_postorder_traversal106. 从中�
 t_076_105_construct_binary_tree_from_preorder_and_inorder_traversal 105. 从前序与中序遍历序列构造二叉树
 t_077_654_maximum_binary_tree                                       654. 最大二叉树
 t_078_617_merge_two_binary_trees                                    617. 合并二叉树
+t_079_700_search_in_a_binary_search_tree                            700. 二叉搜索树中的搜索
 
 ```

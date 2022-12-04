@@ -51,6 +51,7 @@ func inorderTraversal1(root *TreeNode) []int {
 	return ret
 }
 
+// 迭代
 func inorderTraversal2(root *TreeNode) []int {
 	ret := []int{}
 	if root == nil {

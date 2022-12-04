@@ -29,7 +29,7 @@ func TestIsValidBST(t *testing.T) {
 			val.Right = queue[i+2]
 		}
 	}
-	actual = isValidBST(queue[0])
+	actual = isValidBST1(queue[0])
 	if expected == actual {
 		t.Logf("expected=%v, actual=%v", expected, actual)
 	} else {

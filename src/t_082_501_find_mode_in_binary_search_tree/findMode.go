@@ -63,7 +63,7 @@ func findMode1(root *TreeNode) []int {
 			stack.PushBack(cur)
 			cur = cur.Left
 		} else {
-			cur := stack.Remove(stack.Back()).(*TreeNode)
+			cur = stack.Remove(stack.Back()).(*TreeNode)
 			if pre == nil || pre.Val == cur.Val {
 				count++
 			} else {

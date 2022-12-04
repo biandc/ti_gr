@@ -85,5 +85,6 @@ t_079_700_search_in_a_binary_search_tree                            700. 二叉�
 t_080_98_validate_binary_search_tree                                98. 验证二叉搜索树
 t_081_530_minimum_absolute_difference_in_bst                        530. 二叉搜索树的最小绝对差
 t_082_501_find_mode_in_binary_search_tree                           501. 二叉搜索树中的众数
+t_083_236_lowest_common_ancestor_of_a_binary_tree                   236. 二叉树的最近公共祖先
  
 ```

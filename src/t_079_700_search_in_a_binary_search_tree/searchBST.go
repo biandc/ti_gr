@@ -32,3 +32,30 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 	}
 	return traversal(root)
 }
+
+func searchBST1(root *TreeNode, val int) *TreeNode {
+	var traversal func(node *TreeNode) *TreeNode
+	traversal = func(node *TreeNode) *TreeNode {
+		if node == nil || node.Val == val {
+			return node
+		}
+		if node.Val > val {
+			return traversal(node.Left)
+		}
+		return traversal(node.Right)
+	}
+	return traversal(root)
+}
+
+func searchBST2(root *TreeNode, val int) *TreeNode {
+	for root != nil {
+		if root.Val > val {
+			root = root.Left
+		} else if root.Val < val {
+			root = root.Right
+		} else {
+			break
+		}
+	}
+	return root
+}

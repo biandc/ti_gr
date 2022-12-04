@@ -32,7 +32,7 @@ func TestSearchBST(t *testing.T) {
 			val.Right = queue[i+2]
 		}
 	}
-	node := searchBST(queue[0], val)
+	node := searchBST2(queue[0], val)
 	traversal = func(node *TreeNode) {
 		if node == nil {
 			return

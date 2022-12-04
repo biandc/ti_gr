@@ -69,3 +69,4 @@ pub mod t_076_105_construct_binary_tree_from_preorder_and_inorder_traversal;
 pub mod t_077_654_maximum_binary_tree;
 pub mod t_078_617_merge_two_binary_trees;
 pub mod t_079_700_search_in_a_binary_search_tree;
+pub mod t_080_98_validate_binary_search_tree;

@@ -3,6 +3,7 @@ https://leetcode.cn/
 ```
 
 ```
+## 数组
 t_01_704_binary_search                                              704. 二分查找
 t_02_35_search_insert_position                                      35. 搜索插入位置
 t_003_34_find_first_and_last_position_of_element_in_sorted_array    34. 在排序数组中查找元素的第一个和最后一个位置
@@ -18,6 +19,8 @@ t_012_904_fruit_into_baskets                                        904. 水果�
 t_013_76_minimum_window_substring                                   76. 最小覆盖子串
 t_014_59_spiral_matrix_ii                                           59. 螺旋矩阵 II
 t_015_54_spiral_matrix                                              54. 螺旋矩阵
+
+## 链表
 t_016_203_remove_linked_list_elements                               203. 移除链表元素
 t_017_707_design_linked_list                                        707. 设计链表
 t_018_206_reverse_linked_list                                       206. 反转链表
@@ -25,6 +28,8 @@ t_019_24_swap_nodes_in_pairs                                        24. 两两�
 t_020_19_remove_nth_node_from_end_of_list                           19. 删除链表的倒数第 N 个结点
 t_021_0207_intersection_of_two_linked_lists_lcci                    面试题 02.07. 链表相交
 t_022_142_linked_list_cycle_ii                                      142. 环形链表 II
+
+## 哈希表
 t_023_242_valid_anagram                                             242. 有效的字母异位词
 t_024_383_ransom_note                                               383. 赎金信
 t_025_49_group_anagrams                                             49. 字母异位词分组
@@ -36,6 +41,8 @@ t_030_1_two_sum                                                     1. 两数之
 t_031_454_4sum_ii                                                   454. 四数相加 II
 t_032_15_3sum                                                       15. 三数之和
 t_033_18_4sum                                                       18. 四数之和
+
+## 字符串
 t_034_344_reverse_string                                            344. 反转字符串
 t_035_541_reverse_string_ii                                         541. 反转字符串 II
 t_036_offer05_ti_huan_kong_ge_lcof                                  剑指 Offer 05. 替换空格
@@ -43,6 +50,8 @@ t_037_151_reverse_words_in_a_string                                 151. 反转�
 t_038_offer58ii_zuo_xuan_zhuan_zi_fu_chuan_lcof                     剑指 Offer 58 - II. 左旋转字符串
 t_039_28_find_the_index_of_the_first_occurrence_in_a_string         28. 找出字符串中第一个匹配项的下标
 t_040_459_repeated_substring_pattern                                459. 重复的子字符串
+
+## 栈和队列
 t_041_232_implement_queue_using_stacks                              232. 用栈实现队列
 t_042_225_implement_stack_using_queues                              225. 用队列实现栈
 t_043_20_valid_parentheses                                          20. 有效的括号
@@ -50,6 +59,8 @@ t_044_1047_remove_all_adjacent_duplicates_in_string                 1047. 删除
 t_045_150_evaluate_reverse_polish_notation                          150. 逆波兰表达式求值
 t_046_239_sliding_window_maximum                                    239. 滑动窗口最大值
 t_047_347_top_k_frequent_elements                                   347. 前 K 个高频元素
+
+## 二叉树
 t_048_144_binary_tree_preorder_traversal                            144. 二叉树的前序遍历
 t_049_94_binary_tree_inorder_traversal                              94. 二叉树的中序遍历
 t_050_145_binary_tree_postorder_traversal                           145. 二叉树的后序遍历

@@ -75,3 +75,4 @@ pub mod t_082_501_find_mode_in_binary_search_tree;
 pub mod t_083_236_lowest_common_ancestor_of_a_binary_tree;
 pub mod t_084_235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod t_085_701_insert_into_a_binary_search_tree;
+pub mod t_086_450_delete_node_in_a_bst;

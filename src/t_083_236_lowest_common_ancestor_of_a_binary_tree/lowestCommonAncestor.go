@@ -14,6 +14,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+// 递归遍历两次统计出数组 从数组里取最近公共祖先
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	// 获取一个节点的所有祖先包括它自己
 	var getAllAncestor func(cur, node *TreeNode) []*TreeNode
@@ -72,4 +73,26 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 		cur = pAllAncestor[i]
 	}
 	return cur
+}
+
+// 递归后序遍历
+func lowestCommonAncestor1(root, p, q *TreeNode) *TreeNode {
+	var traversal func(cur, p, q *TreeNode) *TreeNode
+	traversal = func(cur, p, q *TreeNode) *TreeNode {
+		if cur == nil || cur == p || cur == q {
+			return cur
+		}
+		left := traversal(cur.Left, p, q)
+		right := traversal(cur.Right, p, q)
+		if left != nil && right == nil {
+			return left
+		} else if left == nil && right != nil {
+			return right
+		} else if left != nil && right != nil {
+			return cur
+		} else {
+			return nil
+		}
+	}
+	return traversal(root, p, q)
 }

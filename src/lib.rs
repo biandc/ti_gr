@@ -74,3 +74,4 @@ pub mod t_081_530_minimum_absolute_difference_in_bst;
 pub mod t_082_501_find_mode_in_binary_search_tree;
 pub mod t_083_236_lowest_common_ancestor_of_a_binary_tree;
 pub mod t_084_235_lowest_common_ancestor_of_a_binary_search_tree;
+pub mod t_085_701_insert_into_a_binary_search_tree;

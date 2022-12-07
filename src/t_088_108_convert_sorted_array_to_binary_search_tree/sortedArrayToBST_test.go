@@ -10,7 +10,7 @@ func TestSortedArrayToBST(t *testing.T) {
 		nums   = []int{-10, -3, 0, 5, 9}
 		actual *TreeNode
 	)
-	actual = sortedArrayToBST(nums)
+	actual = sortedArrayToBST1(nums)
 	// 验证是二叉搜索树
 	var isValidBST func(cur *TreeNode) bool
 	isValidBST = func(cur *TreeNode) bool {

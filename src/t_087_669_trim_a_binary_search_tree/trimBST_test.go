@@ -31,7 +31,7 @@ func TestTrimBST(t *testing.T) {
 			val.Right = queue[i+2]
 		}
 	}
-	actual = trimBST(queue[0], low, high)
+	actual = trimBST1(queue[0], low, high)
 	// 验证是二叉搜索树
 	var isValidBST func(cur *TreeNode) bool
 	isValidBST = func(cur *TreeNode) bool {

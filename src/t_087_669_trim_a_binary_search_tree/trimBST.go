@@ -34,3 +34,37 @@ func trimBST(root *TreeNode, low int, high int) *TreeNode {
 	return traversal(root)
 }
 
+// 迭代
+func trimBST1(root *TreeNode, low int, high int) *TreeNode {
+	// 找到根节点的位置
+	for root != nil && (root.Val < low || root.Val > high) {
+		if root.Val < low {
+			root = root.Right
+		} else if root.Val > high {
+			root = root.Left
+		}
+	}
+	// 找到的根节点为nil返回
+	if root == nil {
+		return nil
+	}
+	// 修剪左子树
+	for cur := root; cur.Left != nil; {
+		// 处理左节点
+		if cur.Left.Val < low {
+			cur.Left = cur.Left.Right
+		} else {
+			cur = cur.Left
+		}
+	}
+	// 修剪右子树
+	for cur := root; cur.Right != nil; {
+		// 处理右节点
+		if cur.Right.Val > high {
+			cur.Right = cur.Right.Left
+		} else {
+			cur = cur.Right
+		}
+	}
+	return root
+}

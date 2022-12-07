@@ -30,7 +30,7 @@ func TestConvertBST(t *testing.T) {
 			val.Right = queue[i+2]
 		}
 	}
-	node := convertBST(queue[0])
+	node := convertBST1(queue[0])
 	var traversal func(cur *TreeNode)
 	traversal = func(cur *TreeNode) {
 		if cur == nil {

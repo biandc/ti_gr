@@ -80,3 +80,5 @@ pub mod t_087_669_trim_a_binary_search_tree;
 pub mod t_088_108_convert_sorted_array_to_binary_search_tree;
 pub mod t_089_538_convert_bst_to_greater_tree;
 pub mod t_090_77_combinations;
+pub mod t_091_216_combination_sum_iii;
+pub mod t_092_17_letter_combinations_of_a_phone_number;

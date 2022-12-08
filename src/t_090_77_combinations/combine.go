@@ -11,7 +11,8 @@ func combine(n int, k int) [][]int {
 			result = append(result, temp)
 			return
 		}
-		for i := index; i <= n; i++ {
+		// 剪枝
+		for i := index; i <= n-(k-len(resultOne))+1; i++ {
 			resultOne = append(resultOne, i)
 			backtrack(i + 1)
 			resultOne = resultOne[:len(resultOne)-1]

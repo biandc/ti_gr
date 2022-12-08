@@ -32,7 +32,6 @@ func combinationSum2(candidates []int, target int) [][]int {
 			sum -= candidates[i]
 			ints = ints[:len(ints)-1]
 		}
-
 	}
 	backtrack(0)
 	return result

@@ -89,3 +89,5 @@ pub mod t_096_93_restore_ip_addresses;
 pub mod t_097_78_subsets;
 pub mod t_098_90_subsets_ii;
 pub mod t_099_491_increasing_subsequences;
+pub mod t_100_46_permutations;
+pub mod t_101_47_permutations_ii;

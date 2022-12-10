@@ -114,5 +114,6 @@ t_095_131_palindrome_partitioning                                   131. 分割�
 t_096_93_restore_ip_addresses                                       93. 复原 IP 地址
 t_097_78_subsets                                                    78. 子集
 t_098_90_subsets_ii                                                 90. 子集 II
+t_099_491_increasing_subsequences                                   491. 递增子序列
 
 ```

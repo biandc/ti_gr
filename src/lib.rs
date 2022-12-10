@@ -88,3 +88,4 @@ pub mod t_095_131_palindrome_partitioning;
 pub mod t_096_93_restore_ip_addresses;
 pub mod t_097_78_subsets;
 pub mod t_098_90_subsets_ii;
+pub mod t_099_491_increasing_subsequences;

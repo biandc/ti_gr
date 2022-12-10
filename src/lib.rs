@@ -86,3 +86,5 @@ pub mod t_093_39_combination_sum;
 pub mod t_094_40_combination_sum_ii;
 pub mod t_095_131_palindrome_partitioning;
 pub mod t_096_93_restore_ip_addresses;
+pub mod t_097_78_subsets;
+pub mod t_098_90_subsets_ii;

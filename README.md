@@ -117,5 +117,6 @@ t_098_90_subsets_ii                                                 90. 子集 I
 t_099_491_increasing_subsequences                                   491. 递增子序列
 t_100_46_permutations                                               46. 全排列
 t_101_47_permutations_ii                                            47. 全排列 II
+t_102_332_reconstruct_itinerary                                     332. 重新安排行程
 
 ```

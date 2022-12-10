@@ -85,3 +85,4 @@ pub mod t_092_17_letter_combinations_of_a_phone_number;
 pub mod t_093_39_combination_sum;
 pub mod t_094_40_combination_sum_ii;
 pub mod t_095_131_palindrome_partitioning;
+pub mod t_096_93_restore_ip_addresses;

@@ -111,5 +111,6 @@ t_092_17_letter_combinations_of_a_phone_number                      17. 电话�
 t_093_39_combination_sum                                            39. 组合总和
 t_094_40_combination_sum_ii                                         40. 组合总和 II
 t_095_131_palindrome_partitioning                                   131. 分割回文串
+t_096_93_restore_ip_addresses                                       93. 复原 IP 地址
 
 ```

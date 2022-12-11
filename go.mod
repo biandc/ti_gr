@@ -1,5 +1,5 @@
 module github.com/biandc/ti_gr
 
-go 1.18
+go 1.19
 
 

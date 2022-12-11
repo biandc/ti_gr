@@ -92,3 +92,4 @@ pub mod t_099_491_increasing_subsequences;
 pub mod t_100_46_permutations;
 pub mod t_101_47_permutations_ii;
 pub mod t_102_332_reconstruct_itinerary;
+pub mod t_103_51_n_queens;

@@ -118,5 +118,6 @@ t_099_491_increasing_subsequences                                   491. 递增�
 t_100_46_permutations                                               46. 全排列
 t_101_47_permutations_ii                                            47. 全排列 II
 t_102_332_reconstruct_itinerary                                     332. 重新安排行程
+t_103_51_n_queens                                                   51. N 皇后
 
 ```

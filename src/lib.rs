@@ -94,3 +94,5 @@ pub mod t_101_47_permutations_ii;
 pub mod t_102_332_reconstruct_itinerary;
 pub mod t_103_51_n_queens;
 pub mod t_104_37_sudoku_solver;
+pub mod t_105_455_assign_cookies;
+pub mod t_106_376_wiggle_subsequence;

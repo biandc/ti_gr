@@ -14,5 +14,4 @@ func TestEvalRPN(t *testing.T) {
 	if expected != actual {
 		t.Fatalf("expected=%v, actual=%v", expected, actual)
 	}
-
-
+}

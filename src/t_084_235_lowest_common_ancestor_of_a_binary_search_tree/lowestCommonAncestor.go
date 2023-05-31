@@ -1,7 +1,5 @@
 package t_084_235_lowest_common_ancestor_of_a_binary_search_tree
 
-import "container/list"
-
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
